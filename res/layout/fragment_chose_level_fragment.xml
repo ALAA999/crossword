@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.mlsdev.animatedrv.AnimatedRecyclerView
+        android:id="@+id/chose_level_rv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:animationDuration="400"
+        app:layoutManagerOrientation="vertical"
+        app:layoutManagerReverse="false"
+        app:layoutManagerType="linear"/>
+
+</FrameLayout>
